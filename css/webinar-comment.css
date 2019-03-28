@@ -1,0 +1,23 @@
+.hc__top__like, .hc__top__unlike, .hc__form__send {
+	border-radius: 50px !important;
+	background: #e24041 !important;
+	height: 31px !important;
+}
+.hc__top__block {
+	color: #fff !important;
+}
+.hc__top__like:hover svg.like path, .hc__top__unlike:hover svg.like path {
+	fill: #fff !important;
+}
+.hc__top__block {
+	margin-top: 7px !important;
+}
+.hc__top__lk {
+	margin-top: 5px !important;
+}
+.hc__menu__line {
+	background: #e24041 !important;
+}
+.hc__form__send {
+	line-height: 30px;
+}

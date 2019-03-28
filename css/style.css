@@ -1,0 +1,1001 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e24041;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #e24041;
+}
+
+a, a:focus, button, button:focus, input, input:focus, textarea, textarea:focus {
+  outline: 0 !important;
+}
+
+:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}
+
+select, select:focus {
+  outline: 0 !important;
+}
+
+html {
+  position: relative;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-size: 36px;
+  letter-spacing: -0.05em;
+  font-family: "PtSans-Bold";
+  color: #fff;
+}
+body main {
+  overflow: hidden;
+}
+body p {
+  margin: 0;
+  padding: 0;
+}
+body a:focus, body a:hover {
+  text-decoration: none;
+}
+body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 0;
+}
+
+.accent-color {
+  color: #e24041;
+}
+
+.intl-tel-input .country-list .country {
+  letter-spacing: 0;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #e24041;
+  box-shadow: 0px 2px 27.84px 1.16px rgba(45, 45, 45, 0.19);
+  width: 482px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 180px;
+  transition: all 0.5s;
+  box-sizing: border-box;
+  border: 0;
+  box-shadow: inset 0 0 0 #000;
+}
+.button:hover {
+  box-shadow: inset 1.1em 1.1em 0 #000, inset -1.1em -1.1em 0 #000, 0px 2px 27.84px 1.16px rgba(45, 45, 45, 0.19);
+}
+
+header {
+  background: url(../img/bg.png) no-repeat;
+  background-size: 100% auto;
+}
+header .container {
+  padding-top: 62px;
+  display: flex;
+  flex-direction: column;
+}
+header .container .logo {
+  width: 100%;
+  font-size: 60px;
+  line-height: 64px;
+  overflow: hidden;
+  display: flex;
+  padding-bottom: 97px;
+}
+header .container .logo span {
+  color: #422828;
+  background: #fff;
+  padding-left: 16px;
+  padding-right: 10px;
+}
+header .container .data {
+  border-width: 5.07px;
+  border-color: #e24041;
+  border-style: solid;
+  width: fit-content;
+  padding: 0 20px;
+  height: 71.86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  margin-left: 192px;
+  margin-bottom: 87px;
+}
+header .container .free {
+  font-size: 38px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-left: 42px;
+  padding-bottom: 40px;
+  letter-spacing: 0;
+}
+header .container .finans {
+  font-size: 72px;
+  line-height: 12px;
+  padding-bottom: 21px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  margin-left: 38px;
+}
+header .container .finans span {
+  font-size: 120px;
+}
+header .container .what {
+  font-size: 52px;
+  line-height: 60px;
+  padding-left: 42px;
+  border-left: 12px solid #e24041;
+  margin-bottom: 72px;
+}
+header .container .button {
+  margin-left: 212px;
+}
+
+main .booking {
+  padding-top: 79px;
+  padding-bottom: 170px;
+}
+main .booking .container {
+  display: flex;
+}
+main .booking .container .right {
+  width: 566px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .booking .container .right ._form_3 {
+  width: 100%;
+}
+main .booking .container .right ._form_3 ._error-inner {
+  letter-spacing: 0 !important;
+}
+main .booking .container .right ._form_3 input[type=text]._has_error {
+  border: #f37c7b 3px solid !important;
+}
+main .booking .container .right form {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 2px 27.84px 1.16px rgba(45, 45, 45, 0.19);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .booking .container .right form .text-top {
+  background-color: #e24041;
+  width: 100%;
+  height: 120px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 27px;
+  font-size: 36px;
+  color: #fff;
+}
+main .booking .container .right form p {
+  font-size: 24px;
+  color: #676767;
+  margin-bottom: 15px;
+}
+main .booking .container .right form .cont {
+  width: 90%;
+  color: #676767;
+}
+main .booking .container .right form .cont input {
+  padding-left: 29px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  border: none;
+  background: #e8e8e8;
+  font-family: "PtSans-Bold";
+  border-radius: 10px;
+  font-size: 28px;
+  margin-bottom: 22px;
+  border: 3px solid #fff;
+  transition: all 0.5s;
+}
+main .booking .container .right form .cont input:focus:required:invalid {
+  border-color: red;
+  background: #fff;
+  transition: all 0.5em;
+}
+main .booking .container .right form .cont input:required:valid {
+  border-color: green;
+  transition: all 0.5em;
+}
+main .booking .container .right form .cont input:hover:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+main .booking .container .right form .cont input:hover:focus::-moz-placeholder {
+  color: transparent;
+}
+main .booking .container .right form .cont .tel {
+  padding-left: 62px;
+}
+main .booking .container .right form .flag-container {
+  left: 10px;
+  font-size: 20px;
+}
+main .booking .container .right form .button {
+  margin-top: 35px;
+  background-color: #e24041;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 34px;
+  transition: all 0.5s;
+  width: 379px;
+  height: 79px;
+  font-size: 36px;
+  letter-spacing: -0.05em;
+  font-family: "PtSans-Bold";
+  border: 0;
+  cursor: pointer;
+}
+main .booking .container .left {
+  width: 62.5%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+main .webinar .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .webinar .container .num1 {
+  margin-bottom: 154px;
+}
+main .webinar .container .num2 {
+  margin-bottom: 65px;
+}
+main .webinar .container .num1, main .webinar .container .num2 {
+  padding-top: 80px;
+  border-width: 5.07px;
+  border-color: #e24041;
+  border-style: solid;
+  border-radius: 20px;
+  width: 90%;
+  position: relative;
+}
+main .webinar .container .num1 .circle, main .webinar .container .num2 .circle {
+  border-radius: 50%;
+  background-color: #e24041;
+  position: absolute;
+  width: 251px;
+  height: 251px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -93px;
+  right: -83px;
+}
+main .webinar .container .num1 .circle p, main .webinar .container .num2 .circle p {
+  font-size: 48px;
+  line-height: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 !important;
+  text-align: center;
+}
+main .webinar .container .num1 h2, main .webinar .container .num2 h2 {
+  font-size: 72px;
+  padding-bottom: 65px;
+  text-align: center;
+  color: #292929;
+  line-height: 100%;
+}
+main .webinar .container .num1 h2 .accent-color span, main .webinar .container .num2 h2 .accent-color span {
+  font-size: 120px;
+}
+main .webinar .container .num1 p, main .webinar .container .num2 p {
+  color: #292929;
+  margin-left: 77px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-start;
+}
+main .webinar .container .num1 p img, main .webinar .container .num2 p img {
+  margin-right: 19px;
+  margin-top: 6px;
+  filter: drop-shadow(0px 0px 10px);
+}
+main .webinar .container .num1 p:last-child, main .webinar .container .num2 p:last-child {
+  margin-bottom: 90px;
+}
+main .question {
+  background: #eee;
+}
+main .question .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .question .container h2 {
+  font-size: 130px;
+  line-height: 100%;
+  color: #e24041;
+  text-align: center;
+  margin-top: -80px;
+}
+main .question .container h3 {
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 48px;
+  padding: 13px 23px;
+  text-align: center;
+  background: #e24041;
+  line-height: 100%;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+main .question .container p {
+  font-size: 40px;
+  line-height: 48px;
+  color: #262626;
+  display: flex;
+  width: 83.75%;
+}
+main .question .container .button {
+  margin-top: 67px;
+  margin-bottom: 90px;
+}
+main .shef {
+  background: url(../img/bg2.png) no-repeat;
+  padding: 82px 0 60px 0;
+  position: relative;
+}
+main .shef .man {
+  position: absolute;
+  bottom: 0;
+  height: 99%;
+  right: 0;
+}
+main .shef .container h3 {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+main .shef .container h2 {
+  font-size: 80px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+main .shef .container p {
+  font-size: 48px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  position: relative;
+}
+main .shef .container p .dot {
+  position: absolute;
+  left: -20px;
+}
+main .shef .container .big {
+  font-size: 60px;
+}
+
+footer {
+  background: url(../img/bg3.png) no-repeat;
+  padding-top: 586px;
+  padding-bottom: 90px;
+}
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .container .now {
+  font-size: 52px;
+  line-height: 60px;
+  text-align: center;
+}
+footer .container .now span {
+  font-size: 72px;
+  text-transform: uppercase;
+}
+footer .container .button {
+  margin-top: 80px;
+  margin-bottom: 111px;
+}
+footer .container .follow {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 39px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+footer .container .ico {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+footer .container .ico a {
+  transition: all 0.5s;
+}
+footer .container .ico a:nth-child(2) {
+  margin: 0 77px;
+}
+footer .container .ico a:hover {
+  transform: scale(1.1);
+}
+footer .container .protection {
+  font-size: 30px;
+  line-height: 100%;
+  margin-top: 45px;
+}
+footer .container .protection span {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1900px) {
+  .container {
+    width: 1400px;
+  }
+
+  header .container .logo {
+    padding-bottom: 50px;
+  }
+  header .container .data {
+    margin-left: 120px;
+    margin-bottom: 44px;
+  }
+  header .container .free {
+    padding-bottom: 10px;
+    font-size: 34px;
+  }
+  header .container .finans {
+    margin-bottom: 40px;
+    font-size: 64px;
+  }
+  header .container .what {
+    font-size: 46px;
+    line-height: 55px;
+  }
+  header .container .button {
+    margin-left: 150px;
+    margin-bottom: 124px;
+  }
+
+  main .booking .container .right form .text-top {
+    font-size: 32px;
+    height: 100px;
+  }
+  main .shef .container h3 {
+    font-size: 55px;
+    line-height: 100%;
+  }
+  main .shef .container h2 {
+    font-size: 70px;
+    line-height: 100%;
+    margin-top: 10px;
+  }
+  main .shef .container p {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 1580px) {
+  .container {
+    width: 1200px;
+  }
+
+  header .container .logo {
+    padding-bottom: 50px;
+  }
+  header .container .data {
+    margin-left: 0;
+  }
+  header .container .free {
+    margin-left: 0;
+    font-size: 30px;
+  }
+  header .container .finans {
+    margin-left: 0;
+    font-size: 56px;
+  }
+  header .container .what {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  header .container .button {
+    margin-left: 0;
+    margin-bottom: 110px;
+  }
+
+  main .booking .container .right {
+    width: 480px;
+  }
+  main .booking .container .right form .text-top {
+    font-size: 28px;
+    height: 80px;
+  }
+  main .booking .container .right form .cont p {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  main .booking .container .right form .cont input {
+    font-size: 24px;
+    height: 70px;
+  }
+  main .booking .container .right form .button {
+    height: 70px;
+  }
+  main .webinar .container .num1 p, main .webinar .container .num2 p {
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 40px;
+  }
+  main .webinar .container .num1 p img, main .webinar .container .num2 p img {
+    width: 38px;
+  }
+  main .webinar .container .num1 h2, main .webinar .container .num2 h2 {
+    font-size: 60px;
+  }
+  main .webinar .container .num1 h2 .accent-color span, main .webinar .container .num2 h2 .accent-color span {
+    font-size: 100px;
+  }
+  main .question .container h3 {
+    font-size: 44px;
+  }
+  main .question .container p {
+    font-size: 38px;
+    line-height: 60px;
+  }
+  main .shef .container h3 {
+    font-size: 53px;
+    line-height: 100%;
+  }
+  main .shef .container h2 {
+    font-size: 68px;
+    line-height: 100%;
+    margin-top: 10px;
+  }
+  main .shef .container p {
+    font-size: 42px;
+    line-height: 44px;
+  }
+
+  footer {
+    padding-top: 486px;
+  }
+  footer .container .now {
+    font-size: 40px;
+  }
+  footer .container .now br:nth-child(1) {
+    display: none;
+  }
+  footer .container .now span {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .button {
+    height: 80px;
+    font-size: 40px;
+    width: 380px;
+  }
+
+  header .container .data {
+    width: 460px;
+    height: 60px;
+    font-size: 42px;
+  }
+  header .container .finans {
+    margin-bottom: 30px;
+  }
+  header .container .what {
+    padding-left: 30px;
+    margin-bottom: 50px;
+  }
+
+  main .booking .container .right form .text-top {
+    margin-bottom: 20px;
+  }
+  main .booking .container .right form .cont input {
+    margin-bottom: 12px;
+  }
+  main .webinar .container .num1, main .webinar .container .num2 {
+    padding-top: 60px;
+  }
+  main .webinar .container .num1 h2, main .webinar .container .num2 h2 {
+    padding-bottom: 40px;
+  }
+  main .webinar .container .num1 p, main .webinar .container .num2 p {
+    margin-bottom: 20px;
+  }
+  main .webinar .container .num1 p:last-child, main .webinar .container .num2 p:last-child {
+    margin-bottom: 70px;
+  }
+  main .webinar .container .num1 .circle, main .webinar .container .num2 .circle {
+    width: 200px;
+    height: 200px;
+    top: -73px;
+    right: -63px;
+  }
+  main .webinar .container .num1 .circle p, main .webinar .container .num2 .circle p {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  main .question .container h2 {
+    font-size: 110px;
+    margin-top: -65px;
+  }
+  main .question .container h3 {
+    font-size: 40px;
+  }
+  main .question .container p {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  footer .container .button {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  footer .container .follow {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .button {
+    height: 80px;
+    font-size: 40px;
+    width: 380px;
+  }
+
+  header .container .free {
+    padding-bottom: 0;
+  }
+  header .container .button {
+    margin-bottom: 70px;
+  }
+
+  footer {
+    padding-top: 200px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 92%;
+  }
+
+  header {
+    background-size: auto;
+  }
+  header .container {
+    align-items: center;
+  }
+  header .container .logo {
+    text-align: center;
+    justify-content: center;
+  }
+  header .container .what {
+    padding: 0;
+    border: none;
+    text-align: center;
+  }
+
+  main .booking .container {
+    flex-direction: column;
+  }
+  main .booking .container .left {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  main .booking .container .right {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  main .booking .container .right br {
+    display: none;
+  }
+
+  main .webinar .container .num1, main .webinar .container .num2 {
+    width: 100%;
+  }
+  main .webinar .container .num1 p, main .webinar .container .num2 p {
+    margin-left: 20px;
+    font-size: 23px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+  }
+  main .webinar .container .num1 p br, main .webinar .container .num2 p br {
+    display: none;
+  }
+  main .webinar .container .num1 .circle, main .webinar .container .num2 .circle {
+    right: -25px;
+  }
+  main .webinar .container .num1 .circle p br, main .webinar .container .num2 .circle p br {
+    display: block;
+  }
+
+  main .question .container p {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  main .shef .man {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .intl-tel-input input {
+    padding-left: 60px;
+  }
+
+  .intl-tel-input .country-list .country {
+    letter-spacing: 0;
+    font-size: 16px;
+    color: #676767;
+  }
+
+  #_form_3_ ._x06809273 p {
+    height: 90px !important;
+    line-height: 30px !important;
+    font-size: 31px !important;
+  }
+
+  header .container {
+    padding-top: 20px;
+  }
+  header .container .logo {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  header .container .logo span {
+    padding-left: 12px;
+    padding-right: 8px;
+  }
+  header .container .data {
+    width: 280px;
+    font-size: 23px;
+    height: 50px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  header .container .data span {
+    line-height: 100%;
+  }
+  header .container .free {
+    font-size: 26px;
+    text-align: center;
+  }
+  header .container .finans {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  header .container .finans span {
+    font-size: 45px;
+  }
+  header .container .what {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .button {
+    width: 280px;
+    height: 60px;
+    letter-spacing: 0;
+    font-size: 30px;
+  }
+
+  main .booking .container .left {
+    height: 200px;
+  }
+  main .booking .container .right form .text-top {
+    letter-spacing: 0;
+    font-size: 26px;
+    line-height: 28px;
+  }
+  main .booking .container .right form .text-top br {
+    display: block;
+  }
+  main .booking .container .right form .cont {
+    width: 92%;
+  }
+  main .booking .container .right form .cont input {
+    height: 60px;
+    font-size: 17px;
+    padding-left: 15px;
+  }
+  main .booking .container .right form .cont p {
+    line-height: 100%;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  main .booking .container .right form .button {
+    width: 92%;
+    height: 60px;
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+
+  main .webinar .container .num1, main .webinar .container .num2 {
+    box-sizing: border-box;
+  }
+  main .webinar .container .num1 p, main .webinar .container .num2 p {
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 20px;
+    letter-spacing: 0;
+  }
+  main .webinar .container .num1 p img, main .webinar .container .num2 p img {
+    display: none;
+  }
+  main .webinar .container .num1 h2, main .webinar .container .num2 h2 {
+    font-size: 44px;
+  }
+  main .webinar .container .num1 h2 .accent-color span, main .webinar .container .num2 h2 .accent-color span {
+    font-size: 70px;
+  }
+  main .webinar .container .num1 .circle, main .webinar .container .num2 .circle {
+    border-radius: 50px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: 0;
+    height: 60px;
+  }
+  main .webinar .container .num1 .circle p, main .webinar .container .num2 .circle p {
+    font-size: 24px;
+    letter-spacing: 0;
+    padding: 0;
+  }
+  main .webinar .container .num1 .circle p br, main .webinar .container .num2 .circle p br {
+    display: none;
+  }
+  main .webinar .container .num1 p:last-child, main .webinar .container .num2 p:last-child {
+    margin-bottom: 40px;
+  }
+
+  main .question .container h2 {
+    font-size: 54px;
+    margin-top: -30px;
+  }
+
+  main .question .container h3 {
+    font-size: 28px;
+    padding: 10px 16px;
+  }
+
+  main .question .container p {
+    width: 100%;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  main .shef .container h3 {
+    margin-left: 0;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+  }
+
+  main .shef .container h2 {
+    margin-left: 0;
+    font-size: 38px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  main .shef .container p {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 0;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  main .shef .container p br {
+    display: none;
+  }
+
+  main .shef .container .big {
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  footer .container .now {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  footer .container .now br:nth-child(1) {
+    display: block;
+  }
+  footer .container .now span {
+    font-size: 36px;
+  }
+
+  footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  footer .container .button {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  footer .container .follow {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  footer .container .ico {
+    width: 100%;
+    justify-content: space-around;
+  }
+  footer .container .ico a:nth-child(2) {
+    margin: 0;
+  }
+
+  footer .container .protection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
